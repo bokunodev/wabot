@@ -1,0 +1,16 @@
+version: v1
+plugins:
+  - plugin: go
+    out: .
+    opt:
+      - paths=source_relative
+  - plugin: twirp
+    out: .
+    opt:
+      - paths=source_relative
+  - plugin: twirp-openapi
+    out: ./generated/openapi
+  - plugin: ts
+    out: ./generated/ts
+  - plugin: twirp_ts
+    out: ./generated/ts
