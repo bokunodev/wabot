@@ -3,7 +3,7 @@ module github.com/bokunodev/wabot
 go 1.20
 
 require (
-	github.com/mdp/qrterminal v1.0.1
+	github.com/mdp/qrterminal/v3 v3.0.0
 	github.com/rs/zerolog v1.29.1
 	go.mau.fi/whatsmeow v0.0.0-20230505084412-9c004199cc79
 	modernc.org/sqlite v1.22.1
@@ -11,6 +11,7 @@ require (
 
 require (
 	filippo.io/edwards25519 v1.0.0 // indirect
+	github.com/BurntSushi/toml v1.2.1 // indirect
 	github.com/dustin/go-humanize v1.0.1 // indirect
 	github.com/google/uuid v1.3.0 // indirect
 	github.com/gorilla/websocket v1.5.0 // indirect

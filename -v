@@ -1,0 +1,42 @@
+== Info: Could not resolve host: POST
+== Info: Closing connection 0
+== Info:   Trying 139.59.117.150:2020...
+== Info: Connected to 139.59.117.150 (139.59.117.150) port 2020 (#1)
+=> Send header, 196 bytes (0xc4)
+0000: POST /api/tk HTTP/1.1
+0017: Host: 139.59.117.150:2020
+0032: User-Agent: curl/8.0.1
+004a: Accept: */*
+0057: Content-Length: 170
+006c: Content-Type: multipart/form-data; boundary=--------------------
+00ac: ----4acc5562722684ca
+00c2: 
+=> Send data, 170 bytes (0xaa)
+0000: --------------------------4acc5562722684ca
+002c: Content-Disposition: form-data; name="url"
+0058: 
+005a: https://vt.tiktok.com/ZS8E7HfhN/
+007c: --------------------------4acc5562722684ca--
+== Info: We are completely uploaded and fine
+<= Recv header, 17 bytes (0x11)
+0000: HTTP/1.1 200 OK
+<= Recv header, 23 bytes (0x17)
+0000: X-Powered-By: Express
+<= Recv header, 47 bytes (0x2f)
+0000: Content-Type: application/json; charset=utf-8
+<= Recv header, 20 bytes (0x14)
+0000: Content-Length: 52
+<= Recv header, 42 bytes (0x2a)
+0000: ETag: W/"34-9Rc54VJNJo9JIMnwTRltyoChtLs"
+<= Recv header, 37 bytes (0x25)
+0000: Date: Tue, 09 May 2023 12:53:55 GMT
+<= Recv header, 24 bytes (0x18)
+0000: Connection: keep-alive
+<= Recv header, 23 bytes (0x17)
+0000: Keep-Alive: timeout=5
+<= Recv header, 2 bytes (0x2)
+0000: 
+<= Recv data, 52 bytes (0x34)
+0000: {"status":"error","details":"url input is required"}
+== Info: Connection #1 to host 139.59.117.150 left intact
+== Info: Closing connection -1

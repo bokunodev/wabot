@@ -1,0 +1,50 @@
+== Info:   Trying 139.59.117.150:2020...
+== Info: Connected to 139.59.117.150 (139.59.117.150) port 2020 (#0)
+=> Send header, 158 bytes (0x9e)
+0000: POST /api/tk HTTP/1.1
+0017: Host: 139.59.117.150:2020
+0032: User-Agent: curl/8.0.1
+004a: Accept: */*
+0057: Content-Type: application/x-www-form-urlencoded
+0088: Content-Length: 36
+009c: 
+=> Send data, 36 bytes (0x24)
+0000: url=https://vt.tiktok.com/ZS8E7HfhN/
+<= Recv header, 17 bytes (0x11)
+0000: HTTP/1.1 200 OK
+<= Recv header, 23 bytes (0x17)
+0000: X-Powered-By: Express
+<= Recv header, 47 bytes (0x2f)
+0000: Content-Type: application/json; charset=utf-8
+<= Recv header, 22 bytes (0x16)
+0000: Content-Length: 1103
+<= Recv header, 43 bytes (0x2b)
+0000: ETag: W/"44f-TVpTy9AOXKRjdMy572mBjSRliic"
+<= Recv header, 37 bytes (0x25)
+0000: Date: Tue, 09 May 2023 13:01:20 GMT
+<= Recv header, 24 bytes (0x18)
+0000: Connection: keep-alive
+<= Recv header, 23 bytes (0x17)
+0000: Keep-Alive: timeout=5
+<= Recv header, 2 bytes (0x2)
+0000: 
+<= Recv data, 1103 bytes (0x44f)
+0000: {"status":"success","type":"video","headers":"","username":"Pure
+0040: lylionel ........","name":"Purelylionel ........","profilePic":"
+0080: https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/b3df54538d
+00c0: 14b7589db671bd3d3b220d~c5_720x720.webp?x-expires=1683723600&x-si
+0100: gnature=B%2FjtF8g3CsqUPiihNHEIM2BkUII%3D","description":"Messi .
+0140: ....... X Ronaldinho ............","thumbnail":"https://p16-sign
+0180: -va.tiktokcdn.com/tos-maliva-p-0068/29e9e7dc4f7e476db99584a3c26f
+01c0: 54fb_1677583733~tplv-tiktokx-360p.image?x-expires=1683723600&x-s
+0200: ignature=uh5bKKjLQHOjchSzfhPKmDC4Ock%3D&s=FEED&se=false&sh=&sc=f
+0240: eed_cover&l=2023050913011632300BE7A19AB0E46CA2","format":"","url
+0280: Download":"https://v16m-default.akamaized.net/cd4cf0d0bda7224ba0
+02c0: 55fade717d0eb0/645a9898/video/tos/useast2a/tos-useast2a-ve-0068c
+0300: 002/oQTRzhQDIAjQPmEXUB9YuJfEXfIC5BtvJPAsKi/?a=0&ch=0&cr=0&dr=0&l
+0340: r=all&cd=0%7C0%7C0%7C0&cv=1&br=2968&bt=1484&cs=0&ds=6&ft=ArCXsB8
+0380: vq8ZmoYWYKc_vj5.-CfhLrus&mime_type=video_mp4&qs=0&rc=Mzs1MzU1OmU
+03c0: 7NGVpO2g5ZkBpM2hmODw6Zmt4aTMzNzczM0BjMTJhYjE2NTAxMV4vMWIxYSMxc2w
+0400: tcjRfXnJgLS1kMTZzcw%3D%3D&l=2023050913011632300BE7A19AB0E46CA2&b
+0440: tag=e00080000"}
+== Info: Connection #0 to host 139.59.117.150 left intact

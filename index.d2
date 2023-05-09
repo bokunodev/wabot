@@ -1,0 +1,10 @@
+shape: sequence_diagram
+
+user: user wa
+wabot: whatsapp bot
+
+user -> wabot: kirim link
+wabot -> url list: tambah link ke antrian
+worker -> url list: ambil 1 link dari antrian
+worker -> wabot: download link dan tambahkan ke antrian pesan wa
+wabot -> user: kirim pesan dari antrian ke user
